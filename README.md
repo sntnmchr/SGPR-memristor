@@ -41,10 +41,10 @@ sgpr_train.py : The program that runs sgpr_train_current.py and sgpr_train_state
 ## Reference
 We would greatly appreciate it if you could kindly acknowledge our tool in your research by referencing the following publications:
 ````
-@inproceedings{IsakaSIS2023Date,
+@inproceedings{DATE2024_yshintani,
    title={Accelerating Machine Learning-Based Memristor Compact Modeling Using Sparse Gaussian Process},
    author={Yuta Shintani and Michiko Inoue and Michihiro Shintani},
    booktitle={in Proceedings of the Conference on Design, Automation \& Test in Europe (DATE)},
-   year={2023}
+   year={2024}
 }
 ````
