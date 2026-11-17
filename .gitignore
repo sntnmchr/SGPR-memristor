@@ -1,0 +1,8 @@
+__pycache__/
+/runs/
+/results/
+/figs/
+tfenv/
+*.log
+log_python.txt
+log_hspice.txt

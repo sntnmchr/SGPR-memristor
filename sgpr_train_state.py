@@ -20,7 +20,7 @@ def main(train_file):
 
     train_data = pd.read_csv(train_file)
     change_state = train_data[train_data["S_in"] != train_data["S"]]
-    train_data = train_data.append(change_state, ignore_index=True)
+    train_data = pd.concat([train_data, change_state], ignore_index=True)
 
     x1 = torch.Tensor(train_data["S_in"].values)
     x2 = torch.Tensor(train_data["Voltage"].values)

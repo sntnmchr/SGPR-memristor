@@ -1,0 +1,10 @@
+# Versions with which the scripts in experiments/ were run (Python 3.12.3)
+torch==2.15.0
+pyro-ppl==1.9.2
+numpy==2.5.3
+pandas==3.0.5
+matplotlib
+tqdm
+# only for experiments/run_baseline_lin.py
+# tensorflow-cpu==2.21.0
+# scikit-learn
